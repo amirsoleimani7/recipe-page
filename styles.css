@@ -60,10 +60,79 @@ body{
 
 
 /* ingredients */
+.ingredients {
+    padding: 3%;
+}
+
 #ingredients_header {
     font-family: 'young serif';
     font-weight: 400;
     color: #824731;
+}
+
+.ingredients li {
+    color: #824731;
+}
+
+.ingredients p {
+    color: #7D7773;
+    font-family: 'outfit';
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+hr{ 
+    background-color: #7D7773;
+}
+
+
+/*instrcutions*/
+.Instructions {
+    padding: 3%;    
+}
+
+#Instructions_header {
+    font-family: 'young serif';
+    font-weight: 400;
+    color: #824731;
+}
+
+.Instructions #Instruction_list li {
+    color: #824731;
+}
+
+
+.Instructions #Instruction_list .Instructions_list_item {
+    color: #544A48;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.Instructions p {
+    color: #7D7773;
+    font-family: 'outfit';
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/*Nutrition */
+.Nutrition {
+    padding: 3%;
+}
+
+#Nutrition_header {
+    font-family: 'young serif';
+    font-weight: 400;
+    color: #824731;
+}
+
+
+#Nutrition_description {
+    color: #7D7773;
+    font-family: 'outfit';
+    font-size: 14px;
+    margin-left: 10px;
 }
 
 
