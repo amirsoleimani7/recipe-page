@@ -132,17 +132,10 @@ hr{
 }
 
 /*table settings*/
+
 .Nutrition_table {
     border-collapse: collapse;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.Nutrition_table th{ 
-    border-bottom: 1px solid;
-    color: black;
+    width: 100%;
 }
 
 .Nutrition_table #left_item {
@@ -159,12 +152,21 @@ hr{
     font-family: 'outfit';
     font-weight: 700;
     font-size: 14px;
-    margin-left: 10px;   
+    margin-left: 10px;
 }
 
-.Nutrition_table th{ 
-    border-bottom: 1px solid;
-    color: black;
+.Nutrition_table td {
+    padding: 15px 0px 15px 20px;
 }
+
+.Nutrition_table tr{
+    border-bottom: 1px solid grey;
+}
+.Nutrition_table tr:last-child{
+    border-bottom: none;
+}
+
+
+
 
 
