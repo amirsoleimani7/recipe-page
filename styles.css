@@ -85,7 +85,6 @@ hr{
     background-color: #7D7773;
 }
 
-
 /*instrcutions*/
 .Instructions {
     padding: 3%;    
@@ -101,13 +100,11 @@ hr{
     color: #824731;
 }
 
-
 .Instructions #Instruction_list .Instructions_list_item {
     color: #544A48;
     font-weight: 700;
     font-size: 14px;
 }
-
 
 .Instructions p {
     color: #7D7773;
@@ -118,7 +115,7 @@ hr{
 
 /*Nutrition */
 .Nutrition {
-    padding: 3%;
+    padding: 3%;   
 }
 
 #Nutrition_header {
@@ -127,12 +124,47 @@ hr{
     color: #824731;
 }
 
-
 #Nutrition_description {
     color: #7D7773;
     font-family: 'outfit';
     font-size: 14px;
     margin-left: 10px;
+}
+
+/*table settings*/
+.Nutrition_table {
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Nutrition_table th{ 
+    border-bottom: 1px solid;
+    color: black;
+}
+
+.Nutrition_table #left_item {
+    color: #7D7773;
+    font-family: 'outfit';
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.Nutrition_table #right_item {
+    color:  #824731;
+    border-color:#7D7773 ;
+    font-family: 'outfit';
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 10px;   
+}
+
+.Nutrition_table th{ 
+    border-bottom: 1px solid;
+    color: black;
 }
 
 
